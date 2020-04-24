@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="259cb882-47f0-40b4-866e-27643506b32d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/조이스틱.py" beforeDir="false" afterPath="$PROJECT_DIR$/조이스틱.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.조이스틱">
+  <component name="RunManager" selected="Python.te">
     <configuration name="스킬트리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="프로그래머스" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,7 +142,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.조이스틱" />
         <item itemvalue="Python.te (1)" />
         <item itemvalue="Python.te" />
         <item itemvalue="Python.스킬트리" />

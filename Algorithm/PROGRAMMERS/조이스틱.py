@@ -2,8 +2,7 @@ def solution(name):
     name = list(name)
     aaa = ['A'] * len(name)
     abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-    answer = 0
-    idx, right, left = 0, 1, 1
+    answer, idx = 0, 0
     while True:
         if name[idx] != 'A':
             if abc.index(name[idx]) > 13:
