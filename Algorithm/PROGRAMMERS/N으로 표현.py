@@ -1,7 +1,7 @@
 def solution(N, number):
     answer, numli = -1, []
     for i in range(1, 9):
-        numbers = set(); numbers.add( int(str(N) * i) )
+        numbers = set(); numbers.add(int(str(N) * i))
         for j in range(i - 1):
             for x1 in numli[j]:
                 for x2 in numli[-1 - j]:
