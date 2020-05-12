@@ -1,6 +1,6 @@
 def solution(jobs):
     n = len(jobs)
-    jobs.sort(key=lambda x: (x[0], x[1]))
+    jobs.sort()
     start, time = jobs.pop(0)
     answer, end = time, time + start
     while jobs:
