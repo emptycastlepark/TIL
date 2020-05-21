@@ -3,7 +3,8 @@ for tc in range(1, int(input()) + 1):
     paper = list(map(int, input().split()))
     group = [[]*(N+1) for _ in range(N+1)]
     for i in range(0, len(paper) - 1, 2):
-        group[paper[i]].append(paper[i+1]); group[paper[i+1]].append(paper[i])
+        group[paper[i]].append(paper[i+1])
+        group[paper[i+1]].append(paper[i])
     cnt, checked = 0, [0] * (N + 1)
     for i in range(len(paper)):
         if checked[paper[i]] == 0:
