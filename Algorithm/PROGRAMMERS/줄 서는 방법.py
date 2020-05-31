@@ -1,8 +1,7 @@
 import math
 def solution(n, k):
-    answer, people = [None] * n, [None] * n
-    for i in range(n):
-        people[i] = i+1
+    answer = [None] * n
+    people = list(range(1, n+1))
     i = 1
     while i <= n:
         s = math.factorial(n - i)
