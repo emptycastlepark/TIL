@@ -7,13 +7,12 @@ for _ in range(N):
     curve = [d]
     for _ in range(g):
         curve += [(i + 1) % 4 for i in curve[::-1]]
-    for cur in curve:
-        x += dx[cur]; y += dy[cur]
+    for c in curve:
+        x += dx[c]; y += dy[c]
         board[x][y] = 1
 cnt = 0
 for i in range(100):
     for j in range(100):
-        if board[i][j] == 1:
-            if board[i][j + 1] == board[i + 1][j + 1] == board[i + 1][j] == 1:
-                cnt += 1
+        if board[i][j] == board[i][j + 1] == board[i + 1][j + 1] == board[i + 1][j] == 1:
+            cnt += 1
 print(cnt)
